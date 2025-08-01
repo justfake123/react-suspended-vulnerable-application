@@ -324,13 +324,10 @@ export default function PackageProfile() {
                 <Row className="justify-content-between">
                     <Col md="6">
                         <Row className="justify-content-between align-items-center">
-                            <div dangerouslySetInnerHTML={
-                                {__html: `
-                                <img src=${database.authorScreenshotURL}
-                                     alt=${authorScreenshotDescription} />
-                                `
-                                }
-                            } />
+                          <img
+                            src={database.authorScreenshotURL}
+                            alt={authorScreenshotDescription}
+                          />
                         </Row>
                     </Col>
                     <Col md="5">
