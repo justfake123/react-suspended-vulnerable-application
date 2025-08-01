@@ -45,7 +45,10 @@
     "react-dom": "17.0.1",
     "react-json-pretty": "2.0.1",
     "react-router-dom": "5.2.0",
-    "reactstrap": "8.7.1"
+    "reactstrap": "8.7.1",
+    "form-data": "4.0.4",
+    "@babel/runtime": "8.0.0-alpha.17",
+    "path-to-regexp": "1.9.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.11.6",
